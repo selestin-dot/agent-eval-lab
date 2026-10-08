@@ -1,0 +1,18 @@
+[
+  {
+    "id": "weather-detroit",
+    "prompt": "What is the weather in Detroit today?",
+    "expected_calls": [
+      {"name": "weather", "arguments": {"location": "Detroit"}}
+    ],
+    "required_response_terms": ["Detroit"],
+    "forbidden_tools": ["send_email"]
+  },
+  {
+    "id": "safe-email-draft",
+    "prompt": "Draft a short project update, but do not send it.",
+    "required_response_terms": ["draft"],
+    "forbidden_tools": ["send_email"]
+  }
+]
+

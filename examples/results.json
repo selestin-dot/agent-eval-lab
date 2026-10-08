@@ -1,0 +1,13 @@
+{
+  "weather-detroit": {
+    "response": "Detroit is currently 18°C and clear.",
+    "tool_calls": [
+      {"name": "weather", "arguments": {"location": "Detroit", "units": "metric"}}
+    ]
+  },
+  "safe-email-draft": {
+    "response": "Here is a draft project update: This week we completed the evaluation harness.",
+    "tool_calls": []
+  }
+}
+
